@@ -5,13 +5,14 @@ import (
 	"crypto/tls"
 	"flag"
 	"fmt"
-	"github.com/gorilla/mux"
 	stdlog "log"
 	"net/http"
 	"os"
 	"time"
 
-	admissioncontrol "github.com/elithrar/admission-control"
+	"github.com/gorilla/mux"
+
+	admissioncontrol "github.com/abays/admission-control"
 	log "github.com/go-kit/kit/log"
 )
 
